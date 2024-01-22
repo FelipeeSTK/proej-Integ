@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passo-A-Passo</title>
+</head>
+<link rel="stylesheet" href="./src/css/styleE.css">
+
+<body>
+  <nav class="navegação">
+    <ul>
+      <li>
+        <a href="index.html"><button class="btN"><b>INICIO</b></button></a>
+      </li>
+      <li>
+        <a href="etapas.html"><button class="btN"><b>ETAPAS</b></button></a>
+      </li>
+      <li>
+        <a href="projetos.html"><button class="btN"><b>PROJETOS</b></button></a>
+      </li>
+    </ul>
+    <hr>
+  </nav>
+  <main>
+    <section class="container-flex-main">
+      <div class="container-form">
+        <h2>Etapas De Desenvolvimento</h2>
+
+        <div class="form">
+          <h3 class="intro" id="textoP"><b>1ª ETAPA – PESQUISA APROFUNDADA DE HTML E CSS:</b></h3><br>
+          <p id="etapa1" class="et1">Para melhor entendimento do que preciso fazer, busquei outras fontes de estudo,
+            como fóruns na internet,
+            e vídeos de programadores no youtube, também fiz alguns cursos de html e css através da Fundação Bradesco,
+            que oferece cursos gratuitos voltados a áreas da tecnologia desde iniciantes a até mesmo alguns mais
+            complexos.</p>
+          <br>
+        </div>
+
+        <div>
+          <button class="bt" onclick="trocarEtapa()"><b>Avançar</b></button>
+          <button class="bt" onclick="voltarEtapa()"><b>Voltar</b></button>
+        </div>
+      </div>
+      <div class="container-img-main"></div>
+    </section>
+  </main>
+
+  
+
+  <footer>
+    <div class="relogio">
+      <div>
+        <span> </span>
+        <span id="horas"> 00 </span>
+        <span> : </span>
+        <span id="minutos"> 00 </span>
+        <span> : </span>
+        <span id="segundos"> 00 </span>
+      </div>
+      &emsp;
+      <div>
+        <!-- A tag span HTML é uma tag adicionada ao HTML em sua 4ª versão cuja finalidade é agrupar e/ou delimitar elementos a nível de linha -->
+        <span id="dia"></span>
+        <span class="tempo"> / </span>
+        <span id="mes"></span>
+        <span class="tempo"> / </span>
+        <span id="ano"> </span>
+        <span class="tempo"> </span>
+      </div>
+
+      <script src="./src/js/script.js"></script><!-- Sempre colocar o script no final do body -->
+  </footer>
+  <script src="./src/js/etapas.js"></script>
+  </div>
+
+</html>

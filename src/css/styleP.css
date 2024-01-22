@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+main{
+    height: 75%;
+}
+body {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #081fb6;
+    background-image: url('/src/tecimg2.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    /*alinha no eixo horizontal*/
+    align-items: center;
+    /*alinhamento vertical*/
+    padding: 16px;
+    list-style-type: none;
+}
+footer div {
+    background-color: #fdfdfd;
+    color: #000000;
+    background-size: auto;
+    font-size: 40px;
+    justify-content: right;
+    display: flex;
+    width: 100%;
+    text-align: right;
+    max-width: 100%;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-self: right;
+}
+.btN {
+    font-size: 20px;
+    width: 20vh;
+}
+.prj {
+    color: white;
+    font-size: 30px;
+}
+.pj {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.projetos{
+    padding: 10px;
+    margin: 5px;
+}
+.li{
+    display:block;
+    justify-content:center;
+    padding: auto;
+    text-decoration: dotted;
+}
+.li :hover{
+    color: red;
+}
